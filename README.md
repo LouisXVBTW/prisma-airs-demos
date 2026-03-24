@@ -4,17 +4,16 @@
 Need to build some demos for:
 
 1. Runtime Security
-   1. API : Build some juniper notebooks for starters. One with and one Without to show difference. 
-   2. Firewall : Don't bother for now.
+   1. API : Build some juniper notebooks for starters. One with and one Without to show difference.
+   2. Build n8n workflow that shows the same
 2. Model Security 
    1. use juniper notebook to show the code usecase 
    2. Some pre-scanned ones in the Gui 
    3. Maybe build a commit check flow, would be cool for that to work. 
 3. Red-Teaming
-   1. Just run some scans, do a couple random big name models from my 4070 and then gemini too from work
-   2. Make sure i do some attack library ones and then some Agent led ones
+   1. has an api we can use to programitically test the agent on every change or on a regular scheduled basis. 
 4. Agent security 
-   1. ngl no idea how this one goes, sync with jeff to see how what where when 
+   1. tbd
 
 
 -------
