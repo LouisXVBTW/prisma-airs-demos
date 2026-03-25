@@ -39,7 +39,7 @@ def scan_local_model(local_dir: str, sg_uuid: str):
 if __name__ == "__main__":
     # Use your Local Disk specific Security Group UUID [cite: 848]
     # Pulling from .env, fallback to the known good one if missing
-    LOCAL_SECURITY_GROUP = os.getenv("LOCAL_SECURITY_GROUP", "91514b68-8136-4f17-ace0-6fc3923927dc")
-    LOCAL_MODEL_PATH = "/Users/loregan/Documents/automation/prisma-airs/model-security/nanochat-d24" # [cite: 863]
+    LOCAL_SECURITY_GROUP = os.getenv("LOCAL_SECURITY_GROUP")
+    LOCAL_MODEL_PATH = "path/to/model/folder" # [cite: 863]
     
     scan_local_model(LOCAL_MODEL_PATH, LOCAL_SECURITY_GROUP)
