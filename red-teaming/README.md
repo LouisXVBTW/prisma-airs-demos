@@ -16,7 +16,7 @@ For testing models/applications:
 For testing AI Agents with Agentic workflows:
 - REST API/Streaming
   - Must be a simple request/response architecture. We need to send our Red Teaming prompt and receive the model's response
-  - Can be done over public internet or over a private chanel we call Network Channel.
+  - Can be done over public internet or over a private channel we call Network Channel.
 
 
 ---
