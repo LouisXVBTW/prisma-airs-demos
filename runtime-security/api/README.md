@@ -22,7 +22,7 @@ Prisma AIRs Runtime API is very flexible and can adapt to all code bases that ar
 
 ### Prerequisites
 
-1. Create and associate a deployment profile for Prisma AIRS AI Runtime API intercept in your Customer Support Portal.
+1. [Create and associate a deployment profile for Prisma AIRS AI Runtime API intercept in your Customer Support Portal.](https://docs.paloaltonetworks.com/ai-runtime-security/activation-and-onboarding/ai-runtime-security-api-intercept-overview/ai-deployment-profile-airs-api-intercept)
 2. Onboard Prisma AIRS AI Runtime API in Strata Cloud Manager.
 3. Manage applications, API keys, security profiles, and custom topics in Strata Cloud Manager.
 
