@@ -1,29 +1,34 @@
-# General notes 
+# README.md 
+
+## Intro - Prisma AIRs
+
+This github repo is targetted at simple set-up & demos for users to have a quick start with sample code for different usecases
+
+<code style="color : red">**THIS IS NOT FOR PRODUCTION USE, THIS IS NOT FOR BEST PRACTICE, JUST FOR DEMO PURPOSES**</code>
 
 
-Need to build some demos for:
+Follow the folder structure to get more information on the relevant features to your usecases. 
 
-1. Runtime Security
-   1. API : Build some juniper notebooks for starters. One with and one Without to show difference.
-   2. Build n8n workflow that shows the same
-2. Model Security 
-   1. use juniper notebook to show the code usecase 
-   2. Some pre-scanned ones in the Gui 
-   3. Maybe build a commit check flow, would be cool for that to work. 
-3. Red-Teaming
-   1. has an api we can use to programitically test the agent on every change or on a regular scheduled basis. 
-4. Agent security 
-   1. tbd
+For all these demos I'll be using python3.12 and trying to stick to the REST API calls so that you can take the same methodology in any codebase. 
 
+## Environment set up
 
--------
+OS : Linux/MacOS/Windows WSL
 
-Also need to focus on the high level pitch & flow. Use the videos from the US AI champions session for guidance. 
+Ill be using python3.12 for the following setup. Please stick to 3.11/3.12/3.13 as Model Security supports these.
 
+You can copy paste this code to set up a virtual environment for your demo:
 
+```bash
+git clone https://github.com/LouisXVBTW/prisma-airs-demos.git
 
-# Model Security
+cd prisma-airs-demos
 
-You need to run either Python 3.11/3.12/3.13
+python3.12 -m venv venv
 
-Follow the instructions for installing the Model Security SDK as this has a specific set of steps.
+source venv/bin/activate
+
+pip install -r requirements.txt
+```
+
+This is the Minimal Viable Environment needed to run the demos. 
